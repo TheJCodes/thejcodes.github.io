@@ -320,3 +320,30 @@ body {
 footer {
     background-color: #0e0f11;
 }
+
+@media only screen and (min-width: 576px) {
+    .collapse_mobile_auto {
+        display: none;
+    }
+    .hide_for_collapse_mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .collapse_mobile_auto {
+        display: block;
+    }
+
+    .hide_for_collapse_mobile {
+        display: none;
+    }
+}
+
+#about_me {
+    scroll-margin-top: 11rem;
+}
+
+#pokelite-dex, #arknights {
+    scroll-margin-top: 14rem;
+}
